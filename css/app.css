@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 60%;
+  max-width: 1200px;
+}
+
+.post h1 {
+  margin-bottom: 50px;
+}
+
+.post img {
+  float: left;
+  margin-right: 20px;
+  width: 400px;
+  max-width: 100%;
+}
+
+.post p {
+  font-size: 20px;
+}
+
+.post ul {
+  margin-top: 30px;
+  list-style: none;
+}
+
+.post ul li {
+  font-size: 20px;
+  text-transform: capitalize;
+  display: inline-block;
+}
+
+.post ul li a {
+  text-decoration: none;
+  color: #565a5c;
+}
+
+.post ul li a:after {
+  content: ", ";
+}
+
+.post ul li a:hover {
+  color: blue;
+}
+
+.post ul li:last-child a:after {
+  content: "";
+}
+
+.templates {
+  display: none;
+}
+
+.comment {
+  margin-top: 30px;
+}
+
